@@ -34,14 +34,14 @@ pip install httpx gradio
 
 **访问界面** ：
 
-* 打开浏览器，访问 Gradio 提供的本地地址（默认 **http://127.0.0.1:7860**）。
+* 打开浏览器，访问 Gradio 提供的本地地址，默认 **http://127.0.0.1:7860**。
 
 **配置参数** ：
 
 * **目录路径** ：默认 **./to_be_tagged**，可修改
 * **系统提示** ：例如“作为图片和视频分析专家”
 * **用户提示** ：例如“描述内容并生成适当的标签”
-* **API端点** ：默认 **https://generativelanguage.googleapis.com(你可以填反代)**
+* **API端点** ：默认 **https://generativelanguage.googleapis.com**(你可以填反代)
 * **API密钥** ：输入你的 Gemini API 密钥
 * **代理（可选）** ：例如 **http://127.0.0.1:7890**
 * **模型版本** ：选择 Gemini 2.0 系列模型（如 **gemini-2.0-flash-001**）
